@@ -11,11 +11,11 @@ let img;
 let smallPoint, largePoint;
 
 function preload() {
-  img = loadImage('data/moonwalk.jpg');
+  img = loadImage('data/classics-never-die-4k-61-2880x1800.jpg');
 }
 
 function setup() {
-  createCanvas(720, 400);
+  createCanvas(2880, 1800);
   smallPoint = 4;
   largePoint = 40;
   imageMode(CENTER);
